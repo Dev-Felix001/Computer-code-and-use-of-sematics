@@ -1,0 +1,79 @@
+/* General page styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f8;
+    color: #222;
+    margin: 100px;
+    padding: 20px;
+    line-height: 1.6;
+    text-align: center;
+    border-radius: 20px; 
+    font-size:larger;
+
+/* Headings */
+h1, h2 {
+    color: #0a3d62;
+}
+
+/* Code and sample output styling */
+/* code {
+    display: block;
+    background-color: #eef2f3;
+    color: #d63384;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 15px 0;
+    font-size: 1rem;
+} */
+
+samp {
+    background-color: #212121;
+    color: #00ff7f;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-family: "Courier New", Courier, monospace;
+}
+
+/* Section styling */
+section {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 15px 0;
+    border-left: 5px solid #0a3d62;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Article cards */
+article {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+article:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+article h2 {
+    color: #1b4f72;
+}
+
+/* Paragraphs */
+p {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+    section, article {
+        padding: 15px;
+    }
