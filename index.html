@@ -1,82 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<<<<<<< HEAD
-    <title>use of sematics</title>
-</head> 
-<link rel="stylesheet" href="style.css">
-<body>
-    <!-- <code>
-        x=5,y=10, z=x+y;
-    </code>
-
-    <p>message from computer </p>
-    <p> <samp>File not found <br>press F1 key to continue</samp></p> -->
-
-      <h1>The theory about wahenga</h1>
-    <section>
-
-        <h1>About wahenga</h1>
-
-        <p>Wahenga, meaning “the wise elders” in Swahili, are often referenced on social media to share
-             traditional wisdom or humorous life lessons drawn from African proverbs. The trend reflects 
-             a modern way of blending cultural heritage with digital expression, using ancient sayings to 
-             comment on today’s realition. </p>
-    </section>
-    <section>
-        <h2>Daily trent about wahenga</h2>
-        <p>A daily trend about **Wahenga** on social media often involves sharing witty or wise sayings that
-             start with phrases like *“Wahenga walisema...”* (“The elders said…”). These posts mix humor, life 
-             advice, and cultural wisdom — turning traditional proverbs into relatable lessons for modern life.</p>
-    </section>
-
-    <h1>The article element</h1>
-
-<article>
-  <h2>Google Chrome</h2>
-  <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
-</article>
-
-<article>
-  <h2>Mozilla Firefox</h2>
-  <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular web browser since January, 2018.</p>
-</article>
-
-<article>
-  <h2>Microsoft Edge</h2>
-  <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
-</article>
-
-=======
-    <title>html forms</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wahenga Article & Forms</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<link rel="stylesheet" href="style.css">
 <body>
-    <!-- <form>
-        <label for="name">Name:</label><br>
-        <input type="text" id="name" name="name"><br><br>
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email"><br><br>
-        <label for="password">Password:</label><br>
-        <input type="password" id="password" name="password"><br><br>
-        <input type="submit" value="Submit">
+    <header>
+        <h1>The Theory About Wahenga</h1>
+    </header>
 
-    </form> -->
+    <main>
+        <section class="card">
+            <h2>About Wahenga</h2>
+            <p>
+                Wahenga, meaning “the wise elders” in Swahili, are often referenced on social media to share
+                traditional wisdom or humorous life lessons drawn from African proverbs. The trend reflects a modern
+                way of blending cultural heritage with digital expression, using ancient sayings to comment on today’s
+                realities.
+            </p>
+        </section>
 
-    <form>
-        <label for="fname"></label> First name</label><br>
-        <input type="text" id="fname" name="fname"><br><br>
-        <label for="lname"></label>Last name</label><br>
-        <input type="text" id="lname" name="lname"><br><br>
-        <label for="Email">Email</label><br>
-        <input type="text"  id="email" name="email"><br><br>
-        <label for="Password"> password</label><br>
-        <input type="text" id="password" name="password"><br><br>
-        <input type="submit" value="Submit">
-    </form>
-    
->>>>>>> 79deee5 (Initial commit)
+        <section class="card">
+            <h2>Daily Trend About Wahenga</h2>
+            <p>
+                A daily trend about <strong>Wahenga</strong> on social media involves sharing witty or wise sayings that
+                start with phrases like <em>“Wahenga walisema...”</em> (“The elders said…”). These posts mix humor, life
+                advice, and cultural wisdom — turning traditional proverbs into relatable lessons for the modern era.
+            </p>
+        </section>
+
+        <h2>The Article Element</h2>
+
+        <div class="grid">
+            <article class="card">
+                <h3>Google Chrome</h3>
+                <p>Google Chrome is a web browser developed by Google, released in 2008. It is now the world's most popular browser.</p>
+            </article>
+
+            <article class="card">
+                <h3>Mozilla Firefox</h3>
+                <p>Mozilla Firefox is an open-source web browser. It has long been one of the most popular browsers.</p>
+            </article>
+
+            <article class="card">
+                <h3>Microsoft Edge</h3>
+                <p>Microsoft Edge, released in 2015, replaced Internet Explorer and has become widely used.</p>
+            </article>
+        </div>
+
+        <h2>HTML Form</h2>
+
+        <form class="form-card">
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname" required />
+
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname" required />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required />
+
+            <label for="country">Country:</label>
+            <input type="text" id="country" name="country" required />
+
+            <input type="submit" value="Submit" />
+        </form>
+    </main>
 </body>
 </html>

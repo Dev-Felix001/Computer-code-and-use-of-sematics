@@ -1,140 +1,91 @@
-<<<<<<< HEAD
-/* General page styling */
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f4f6f8;
-    color: #222;
-    margin: 100px;
-    padding: 20px;
-    line-height: 1.6;
-    text-align: center;
-    border-radius: 20px; 
-    font-size:larger;
-
-/* Headings */
-h1, h2 {
-    color: #0a3d62;
-}
-
-/* Code and sample output styling */
-/* code {
-    display: block;
-    background-color: #eef2f3;
-    color: #d63384;
-    padding: 10px;
-    border-radius: 8px;
-    margin: 15px 0;
-    font-size: 1rem;
-} */
-
-samp {
-    background-color: #212121;
-    color: #00ff7f;
-    padding: 8px 12px;
-    border-radius: 6px;
-    font-family: "Courier New", Courier, monospace;
-}
-
-/* Section styling */
-section {
-    background-color: #ffffff;
-    padding: 20px;
-    margin: 15px 0;
-    border-left: 5px solid #0a3d62;
-    border-radius: 10px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-}
-
-/* Article cards */
-article {
-    background-color: #ffffff;
-    border-radius: 10px;
-    padding: 20px;
-    margin-bottom: 15px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-article:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-}
-
-article h2 {
-    color: #1b4f72;
-}
-
-/* Paragraphs */
-p {
-    font-size: 1rem;
-    margin: 10px 0;
-}
-
-/* Responsive layout */
-@media (max-width: 768px) {
-    body {
-        padding: 10px;
-    }
-    section, article {
-        padding: 15px;
-    }
-=======
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f6f8;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+/* Basic reset */
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
 }
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  background: #f0e2ee;
+  padding: 200px 150px;
+  color: #333;
+  margin: 20px 80px;
+}
+
+h1, h2 {
+  color: #e447b3;
+  margin-top: 10px 10px;
+  border-radius: 8px #e447b3;
+  border: solid black 3px;
+  /* background-color: #0a0a0a; */}
+ .your-class-name {
+  padding: 3px;
+  width: 100%;
+  max-width: 800px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+}
+
+
+section, article {
+  background: #e7bbbb;
+  padding: 20px;
+  margin: 15px 80;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Articles list style */
+article h2 {
+  color: #444;
+}
+
+/* Forms */
 form {
-  background-color: #ffffff;
-  padding: 30px 40px;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  width: 320px;
+  background: #b291d4;
+  padding: 20px;
+  margin: 200px 400px;
+  border-radius: 40px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin:center;
+  border-radius:3px;
 }
 
 label {
   font-weight: bold;
-  color: #333;
-  display: block;
-  margin-bottom: 5px;
 }
 
 input[type="text"],
-input[type="password"] {
+input[type="email"],
+input[type="password"],
+input[type="fname"],
+input[type="lname"],
+input[type="country"] {
   width: 100%;
   padding: 10px;
-  margin-bottom: 15px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  box-sizing: border-box;
-  transition: 0.3s;
-}
-
-input[type="text"]:focus,
-input[type="password"]:focus {
-  border-color: #4f46e5;
-  box-shadow: 0 0 5px rgba(79, 70, 229, 0.3);
-  outline: none;
+  margin: 8px 0 15px 0;
+  border: 1px solid #edabd8;
+  border-radius: 5px;
+  font-size: 16px;
 }
 
 input[type="submit"] {
-  background-color: #4f46e5;
-  color: white;
-  padding: 10px;
-  width: 100%;
+  background: #2c7be5;
+  color: rgb(222, 166, 239);
+  padding: 10px 20px;
   border: none;
-  border-radius: 8px;
+  border-radius: 5px;
   cursor: pointer;
-  font-weight: bold;
+  font-size: 16px;
   transition: 0.3s;
 }
 
 input[type="submit"]:hover {
-  background-color: #3730a3;
+  background: #1a5fc4;
 }
->>>>>>> 79deee5 (Initial commit)
